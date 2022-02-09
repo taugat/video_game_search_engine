@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@PropertySource("elastic_search")
+@PropertySource("classpath:elastic_search.properties")
 public class ElasticSearchConfiguration
 {
 
