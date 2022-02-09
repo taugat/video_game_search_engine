@@ -50,6 +50,12 @@
                 <version>${spring-boot.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-high-level-client</artifactId>
+                <version>7.17.0</version>
+            </dependency>
+
             <!-- Dev dependencies -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
